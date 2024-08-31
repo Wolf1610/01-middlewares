@@ -13,6 +13,7 @@ app.get("/user", function(req, res){
   res.status(200).json({name: "Rihana"})
 })
 
+
 app.post('/user', function(req, res) {
   res.status(200).json({ msg: 'created dummy user' });
 });
