@@ -22,7 +22,7 @@ app.get('/errorCount', function(req, res) {
   res.status(200).json({ errorCount });
 });
 
-// -------------------
+// -----------------------
 // You have been given an express server which has a few endpoints.
 // Your task is to
 // 1. Ensure that if there is ever an exception, the end user sees a status code of 404
@@ -38,3 +38,5 @@ app.use(function (err, req, res, next){
 
 // app.listen(3000);
 module.exports = app;
+
+
